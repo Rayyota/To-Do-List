@@ -1,0 +1,30 @@
+.custom-calendar {
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.custom-calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.custom-calendar .has-tasks {
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-calendar .task {
+  margin-bottom: 5px;
+}
+
+div {
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}

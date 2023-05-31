@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 64px;
+  padding: 0 16px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.icon-logo {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 19px;
+  margin-bottom: 0;
+  margin-left: 100px;
+  text-align: center;
+
+  color: white;
+}
+
+.logout-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.logout-icon {
+  font-size: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.anticon > * {
+  line-height: inherit;
+}
